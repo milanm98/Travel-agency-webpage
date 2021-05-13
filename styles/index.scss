@@ -1,0 +1,17 @@
+$nav-bar-color : rgb(66, 66, 136);
+
+@media only screen and (max-width: 768px){
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        color: $nav-bar-color;
+        font-size: 2em;
+        
+        a {
+            text-decoration: none;
+            font-size: 2em;
+        }
+        
+    }
+}
+

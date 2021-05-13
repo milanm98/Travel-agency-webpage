@@ -3,13 +3,13 @@ module.exports = function(grunt){
     grunt.initConfig({
         concat: {
             scss: {
-                src: ['css/mobile.scss','css/desktop.scss','css/tablet.scss'],
-                dest: 'css/index.scss',
+                src: ['styles/mobile.scss','styles/desktop.scss','styles/tablet.scss'],
+                dest: 'styles/index.scss',
           },
         },
         watch: {
             scss: {
-                files: ['css/*.scss'],
+                files: ['styles/*.scss'],
                 tasks: ['concat'],
             }
         }

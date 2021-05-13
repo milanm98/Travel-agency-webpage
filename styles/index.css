@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #424288;
+    font-size: 2em;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    font-size: 4em;
+  }
+}
+/*# sourceMappingURL=index.css.map */
