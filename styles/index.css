@@ -1,23 +1,32 @@
 .nav-bar {
   width: 100%;
   height: auto;
-}
-
-.nav {
-  word-wrap: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  float: right;
-  color: #271770;
-  font-size: 3rem;
-  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #24309b;
+  font-size: 2rem;
   font-weight: bolder;
 }
 
 .nav a {
+  color: #24309b;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 #globe-img {
@@ -26,17 +35,28 @@
 }
 
 #eng-img {
-  width: 70px;
-  height: 70px;
+  margin-left: 5rem;
+  width: 50px;
+  height: 50px;
 }
 
 #pound-img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 #login {
-  position: relative;
-  top: 10%;
+  margin-bottom: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #443c3c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.links {
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*# sourceMappingURL=index.css.map */

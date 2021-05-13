@@ -1,23 +1,25 @@
-$nav-bar-color : rgb(39, 23, 112);
+$nav-bar-color : rgb(36, 48, 155);
+$login-color : rgb(68, 60, 60);
 
 .nav-bar{
     width : 100%;
     height : auto;
-
+    display : flex;
+    flex-direction: row;
 }
 
 .nav{
-    word-wrap: normal;
     display : flex;
-    float : right;
+    flex-direction: column;
     color: $nav-bar-color;
-    font-size: 3rem;
-    text-align: center;  
+    font-size: 2rem;
     font-weight: bolder;
 
+
     a {
+        color: $nav-bar-color;
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 }
 
@@ -27,18 +29,29 @@ $nav-bar-color : rgb(39, 23, 112);
 }
 
 #eng-img{
-    width: 70px;
-    height: 70px;
+    margin-left: 5rem;
+    width: 50px;
+    height: 50px;
 }
 
 #pound-img{
-    width : 40px;
-    height: 40px;
+    width : 30px;
+    height: 30px;
 }
 
 #login {
-    position: relative;
-    top: 10%;
+    margin-bottom: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: $login-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.links{
+    width: 100%;
+    height : auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
