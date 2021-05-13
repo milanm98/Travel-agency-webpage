@@ -1,18 +1,31 @@
-@media only screen and (max-width: 768px) {
-  .nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    color: #424288;
-    font-size: 2em;
-  }
-  .nav-bar a {
-    text-decoration: none;
-    font-size: 2em;
-  }
+.nav-bar {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  word-wrap: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  color: #271770;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+#globe-img {
+  width: 200px;
+  height: 200px;
+}
+
+#login {
+  position: absolute;
 }
 /*# sourceMappingURL=mobile.css.map */

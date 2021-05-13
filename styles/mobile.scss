@@ -1,16 +1,31 @@
-$nav-bar-color : rgb(66, 66, 136);
+$nav-bar-color : rgb(39, 23, 112);
 
-@media only screen and (max-width: 768px){
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-        color: $nav-bar-color;
-        font-size: 2em;
-        
-        a {
-            text-decoration: none;
-            font-size: 2em;
-        }
-        
+.nav-bar{
+    width : 100%;
+    height : auto;
+
+}
+
+.nav{
+    word-wrap: normal;
+    display : flex;
+    float : right;
+    color: $nav-bar-color;
+    font-size: 3rem;
+    text-align: center;  
+    font-weight: bolder;
+
+    a {
+        text-decoration: none;
+        margin-left: 30px;
     }
+}
+
+#globe-img{
+    width: 200px;
+    height : 200px;
+}
+
+#login {
+    position: absolute;
 }
