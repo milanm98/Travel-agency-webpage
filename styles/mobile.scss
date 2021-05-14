@@ -35,12 +35,18 @@ $login-color : rgb(68, 60, 60);
     margin-top: 10px;
 }
 
-#pound-img{
+#pound{
     width : 50px;
     height: 50px;
-    margin-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
 }
 
+
+#tablet-pound{
+    display: none;
+}
 
 #login {
     text-align: center;

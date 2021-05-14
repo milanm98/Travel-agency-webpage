@@ -1,0 +1,83 @@
+$nav-bar-color : rgb(36, 48, 155);
+$login-color : rgb(68, 60, 60);
+
+@media only screen and (min-device-width : 768px){
+    .links{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height : auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.6em;
+        text-align: left;
+    }
+
+    #line {
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+
+
+    #eng-img{
+        width: 50px;
+        height: 30px;
+    }
+
+    #pound{
+        width : 30px;
+        height: 30px;
+        display: none;
+    }
+
+    #tablet-pound{
+        display: inline-block;
+        margin-top: 15px;
+        width : 100px;
+        text-align: left;
+    }
+
+    .nav-bar{
+        width : 100%;
+        height : auto;
+        display : flex;
+        flex-direction: row;
+    }
+
+    .nav{
+        display : flex;
+        flex-direction: row-reverse;
+        color: $nav-bar-color;
+        font-size: 2rem;
+        justify-content: center;
+        height : 170px;
+
+        a {
+            color: $nav-bar-color;
+            text-decoration: none;
+            margin-right: 30px;
+            margin-left: 0;
+        }
+    }
+
+
+    
+    #login {
+        width : 350px;
+        margin-left: 70px;
+        text-align: center;
+        margin-bottom: 1em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: $login-color;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login-text{    
+        margin-top: 15px;
+
+    }
+}
