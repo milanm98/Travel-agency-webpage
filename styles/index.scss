@@ -12,40 +12,54 @@ $login-color : rgb(68, 60, 60);
     display : flex;
     flex-direction: column;
     color: $nav-bar-color;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bolder;
 
 
     a {
         color: $nav-bar-color;
         text-decoration: none;
-        margin-left: 50px;
+        margin-left: 60px;
+        font-weight: 900;
     }
 }
 
 #globe-img{
-    width: 200px;
-    height : 200px;
+    width: 230px;
+    height : 160px;
 }
 
 #eng-img{
-    margin-left: 5rem;
-    width: 50px;
+    width: 90px;
     height: 50px;
+    margin-top: 10px;
 }
 
 #pound-img{
-    width : 30px;
-    height: 30px;
+    width : 50px;
+    height: 50px;
+    margin-top: 10px;
 }
 
+
 #login {
-    margin-bottom: 2em;
+    text-align: center;
+    margin-bottom: 1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: $login-color;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#line{
+    color : gray;
+    opacity : 0.7;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .links{
