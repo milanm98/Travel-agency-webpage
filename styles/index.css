@@ -86,7 +86,6 @@
 }
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -98,13 +97,14 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 80%;
+  left: 75%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: #1a0303;
+  color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 70px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -112,6 +112,11 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  opacity: 0;
+}
+
+.next {
+  margin-left: 100px;
 }
 
 .fade {
