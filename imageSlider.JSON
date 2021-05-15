@@ -1,3 +1,14 @@
 [
-    
+    {
+        "description" : "A photo that represent a summer vacation",
+        "src" : "assets/summer.png"
+    },
+    {
+        "description" : "A photo that represent a winter vacation",
+        "src" : "assets/winter.jpg"
+    },
+    {
+        "description" : "A photo that represent a autumn vacation",
+        "src" : "assets/autumn.jpg"
+    }
 ]

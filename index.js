@@ -1,3 +1,20 @@
+fetch('imageSlider.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                alert('error: ' + err);
+            });
+
+        function appendData(data) {
+             $("#summer-img").attr("src", data[0].src);
+             $("#winter-img").attr("src", data[1].src);
+             $("#autumn-img").attr("src", data[2].src);
+            }
+
 var slideIndex = 1;
 ShowSlides(slideIndex);
 
