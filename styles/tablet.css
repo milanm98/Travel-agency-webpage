@@ -66,6 +66,24 @@
     margin-right: 30px;
     margin-left: 0;
   }
+  .next, .prev {
+    top: 50%;
+    left: 80%;
+  }
+  #marketing-quote {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   #login {
     width: 350px;
     margin-left: auto;
