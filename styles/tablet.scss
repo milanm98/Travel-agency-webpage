@@ -50,6 +50,7 @@ $login-color : rgb(68, 60, 60);
         font-size: 2rem;
         justify-content: center;
         height : 170px;
+        width: 100%;
 
         a {
             color: $nav-bar-color;
@@ -63,7 +64,7 @@ $login-color : rgb(68, 60, 60);
     
     #login {
         width : 350px;
-        margin-left: 70px;
+        margin-left: auto;
         text-align: center;
         margin-bottom: 1em;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -72,8 +73,9 @@ $login-color : rgb(68, 60, 60);
         text-transform: uppercase;
         font-size: 0.4em;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        
     }
 
     #login-text{    

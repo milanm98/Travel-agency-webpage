@@ -58,6 +58,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     height: 170px;
+    width: 100%;
   }
   .nav a {
     color: #24309b;
@@ -67,7 +68,7 @@
   }
   #login {
     width: 350px;
-    margin-left: 70px;
+    margin-left: auto;
     text-align: center;
     margin-bottom: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,9 +79,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
