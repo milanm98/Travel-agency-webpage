@@ -69,7 +69,7 @@ $login-color : rgb(68, 60, 60);
         width: 100%;
         display: flex;
         flex-direction: row;
-        font-size: 4rem;
+        font-size: 50px;
         justify-content: center;
     }
 
@@ -92,5 +92,30 @@ $login-color : rgb(68, 60, 60);
     #login-text{    
         margin-top: 15px;
 
+    }
+
+    #travel-features{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .images-features{
+        border: 1px solid gray;
+        border-radius: 50%;
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+        margin-top: 40px;
+    }
+  
+    .articles{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        width: 100%;
+        color: $nav-bar-color;
+        font-size: 1.5rem;
+        margin: 0;
     }
 }

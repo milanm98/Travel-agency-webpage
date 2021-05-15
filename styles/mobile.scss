@@ -150,7 +150,7 @@ $login-color : rgb(68, 60, 60);
 
   #quote{
       color : gray;
-      font-size: 1.5rem;
+      font-size: 30;
       text-align: center;
       margin-top: 40px;
       text-transform: uppercase;
@@ -160,8 +160,8 @@ $login-color : rgb(68, 60, 60);
       margin-bottom: 30px;
       margin-top: 30px;
       color: $nav-bar-color;
-      font-size: 5.5rem;
-      font-weight: 900;
+      font-size: 60px;
+      font-weight: bolder;
       text-align: center;
       word-wrap: break-word;
       overflow-wrap: break-word;
@@ -169,15 +169,16 @@ $login-color : rgb(68, 60, 60);
 
   #travel-features{
       display: grid;
-      align-items: center;
-    
+      margin : 70px;
   }
 
-  .image-features{
-      margin: 20px;
-      border: 22px solid gray;
+  .images-features{
+      border: 1px solid gray;
       border-radius: 50%;
       text-align: center;
+      margin: 30px;
+      padding: 25px;
+      margin-top: 40px;
   }
 
   .articles{
@@ -187,13 +188,7 @@ $login-color : rgb(68, 60, 60);
       width: 100%;
       color: $nav-bar-color;
       font-size: 3rem;
-      margin-left: 20px;
-      margin-right: 20px;
-  }
-
-  .article-text{
-      margin-left: 20px;
-      margin-right : 20px;
+      margin: 0;
   }
 
 

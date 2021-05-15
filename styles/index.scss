@@ -150,7 +150,7 @@ $login-color : rgb(68, 60, 60);
 
   #quote{
       color : gray;
-      font-size: 1.5rem;
+      font-size: 30;
       text-align: center;
       margin-top: 40px;
       text-transform: uppercase;
@@ -160,8 +160,8 @@ $login-color : rgb(68, 60, 60);
       margin-bottom: 30px;
       margin-top: 30px;
       color: $nav-bar-color;
-      font-size: 5.5rem;
-      font-weight: 900;
+      font-size: 60px;
+      font-weight: bolder;
       text-align: center;
       word-wrap: break-word;
       overflow-wrap: break-word;
@@ -169,15 +169,16 @@ $login-color : rgb(68, 60, 60);
 
   #travel-features{
       display: grid;
-      align-items: center;
-    
+      margin : 70px;
   }
 
-  .image-features{
-      margin: 20px;
-      border: 22px solid gray;
+  .images-features{
+      border: 1px solid gray;
       border-radius: 50%;
       text-align: center;
+      margin: 30px;
+      padding: 25px;
+      margin-top: 40px;
   }
 
   .articles{
@@ -187,13 +188,7 @@ $login-color : rgb(68, 60, 60);
       width: 100%;
       color: $nav-bar-color;
       font-size: 3rem;
-      margin-left: 20px;
-      margin-right: 20px;
-  }
-
-  .article-text{
-      margin-left: 20px;
-      margin-right : 20px;
+      margin: 0;
   }
 
 
@@ -271,7 +266,7 @@ $login-color : rgb(68, 60, 60);
         width: 100%;
         display: flex;
         flex-direction: row;
-        font-size: 4rem;
+        font-size: 50px;
         justify-content: center;
     }
 
@@ -294,6 +289,31 @@ $login-color : rgb(68, 60, 60);
     #login-text{    
         margin-top: 15px;
 
+    }
+
+    #travel-features{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .images-features{
+        border: 1px solid gray;
+        border-radius: 50%;
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+        margin-top: 40px;
+    }
+  
+    .articles{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        width: 100%;
+        color: $nav-bar-color;
+        font-size: 1.5rem;
+        margin: 0;
     }
 }
 @media only screen and (min-device-width : 1024px){
