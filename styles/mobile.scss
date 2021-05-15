@@ -107,10 +107,21 @@ $login-color : rgb(68, 60, 60);
       margin-left: 100px;
   }
 
+  #book-now{
+      font-size: 3.7rem;
+      position: absolute;
+      color :white;
+      background-color: rgb(65, 83, 165);
+      width: 35%;
+      top: 70%;
+      left : 5%;
+      opacity: 1;
+  } 
+
   .description {
       height: 100%;
       width: 20%;
-      font-size : 4rem;
+      font-size : 3.7rem;
       color : white;
       position: absolute;
       top : 5%; 
