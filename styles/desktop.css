@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=desktop.css.map */
+@media only screen and (min-device-width: 1024px) {
+  .next, .prev {
+    top: 50%;
+    left: 80%;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */

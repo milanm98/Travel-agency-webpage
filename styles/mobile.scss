@@ -107,6 +107,17 @@ $login-color : rgb(68, 60, 60);
       margin-left: 100px;
   }
 
+  .description {
+      height: 100%;
+      width: 20%;
+      font-size : 4rem;
+      color : white;
+      position: absolute;
+      top : 5%; 
+      left : 5%;
+      font-weight: 900;
+  }
+
   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -123,5 +134,7 @@ $login-color : rgb(68, 60, 60);
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
 
 

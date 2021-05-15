@@ -1,14 +1,14 @@
 [
     {
-        "description" : "A photo that represent a summer vacation",
+        "description" : "Fly to Maldives for 1999,99£",
         "src" : "assets/summer.png"
     },
     {
-        "description" : "A photo that represent a winter vacation",
+        "description" : "New Year at Warsaw for 599,99£",
         "src" : "assets/winter.png"
     },
     {
-        "description" : "A photo that represent a autumn vacation",
+        "description" : "Visit Madison bridges for 1699,99£",
         "src" : "assets/autumn.jpg"
     }
 ]
