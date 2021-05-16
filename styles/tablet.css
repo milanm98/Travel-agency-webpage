@@ -137,5 +137,62 @@
     font-size: 1.3rem;
     margin: 0;
   }
+  #offers {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #24309b;
+    width: 100%;
+    padding-bottom: 30px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  #offers-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    padding: 49px;
+  }
+  .offers-description {
+    margin: 15px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .offers-city {
+    height: 30rem;
+  }
+  .offers-city img {
+    height: 60%;
+    width: 100%;
+  }
+  .offers-name {
+    margin: 0;
+    color: #24309b;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  .offers-price {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+  }
+  .offers-booking {
+    margin-top: 5rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #24309b;
+    font-size: 2.5rem;
+  }
 }
 /*# sourceMappingURL=tablet.css.map */

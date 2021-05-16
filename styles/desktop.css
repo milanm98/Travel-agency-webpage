@@ -15,5 +15,46 @@
   #autumn-img {
     height: 750px;
   }
+  #offers {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (230px)[4];
+        grid-template-columns: repeat(4, 230px);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    gap: 1.5%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #24309b;
+    width: 100%;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offers-city img {
+    height: 50%;
+    width: 100%;
+  }
+  #offers-with-title {
+    background-color: #24309b;
+    width: 100%;
+    height: auto;
+  }
+  .offers-city {
+    height: 23rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #offers-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offers-booking {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=desktop.css.map */

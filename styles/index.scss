@@ -384,7 +384,66 @@ $login-color : rgb(68, 60, 60);
         font-size: 1.3rem;
         margin: 0;
     }
+
+    #offers{
+        display: grid;
+        align-items: center;
+        background-color: $nav-bar-color;
+        width: 100%;
+        padding-bottom: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #offers-title{
+        display: flex;
+        flex-direction: row;
+        color : white;
+        font-size: 2rem;
+        text-align: left;
+        padding: 49px;
+    }
+
+    .offers-description{
+        margin: 15px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .offers-city{
+        height : 30rem;
+    }
+
+    .offers-city img{
+        height: 60%;
+        width: 100%;
+    }
+    
+    .offers-name{
+        margin: 0;
+        color: $nav-bar-color;
+        font-weight:bolder;
+        font-size: 2rem;
+    }
+    
+    .offers-price{
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .offers-booking{
+        margin-top: 5rem;
+        text-decoration: none;
+        font-weight: bolder;
+        color:$nav-bar-color;
+        font-size: 2.5rem;   
+    }
+
 }
+$nav-bar-color : rgb(36, 48, 155);
+$login-color : rgb(68, 60, 60);
+
 @media only screen and (min-device-width : 1024px){
     .next, .prev{
         top : 50%;
@@ -405,4 +464,42 @@ $login-color : rgb(68, 60, 60);
         height: 750px;
     }
 
+    #offers{
+        display: grid;
+        grid-template-columns: repeat(4, 230px);
+        grid-template-rows: auto;
+        gap: 1.5%;
+        align-items: center;
+        background-color: $nav-bar-color;
+        width: 100%;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .offers-city img{
+        height: 50%;
+        width: 100%;
+    }
+
+    #offers-with-title{
+        background-color: $nav-bar-color;
+        width: 100%;
+        height: auto;
+     }
+
+    .offers-city{
+        height : 23rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #offers-title{
+        justify-content: center;
+    }
+
+     
+    .offers-booking{
+        font-size: 2rem;
+    }
 }
