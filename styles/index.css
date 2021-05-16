@@ -366,5 +366,17 @@
     top: 50%;
     left: 80%;
   }
+  .slideshow-container {
+    height: 750px;
+  }
+  #summer-img {
+    height: 750px;
+  }
+  #winter-img {
+    height: 750px;
+  }
+  #autumn-img {
+    height: 750px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
