@@ -220,6 +220,80 @@
   margin: 0;
 }
 
+#offers-with-title {
+  background-color: #24309b;
+  width: 100%;
+  height: auto;
+}
+
+#offers-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#offers {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #24309b;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.offers-city {
+  background-color: white;
+  height: 70rem;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.offers-city img {
+  height: 50%;
+  width: 100%;
+}
+
+.offers-description {
+  margin: 15px;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.offers-name {
+  margin: 0;
+  color: #24309b;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.offers-price {
+  margin-top: 0;
+  margin-bottom: 7rem;
+  font-size: 5.3rem;
+}
+
+.offers-booking {
+  margin-top: 5rem;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #24309b;
+  font-size: 5.5rem;
+}
+
 @media only screen and (min-device-width: 768px) {
   .links {
     display: -webkit-box;

@@ -192,6 +192,76 @@ $login-color : rgb(68, 60, 60);
   }
 
 
+  #offers-with-title{
+    background-color: $nav-bar-color;
+    width: 100%;
+    height: auto;
+ }
+
+ #offers-title{
+     display: flex;
+     flex-direction: column;
+     color : white;
+     font-size: 5rem;
+     text-align: center;
+     word-wrap: break-word;
+     overflow-wrap: break-word;
+     margin-top: 5%;
+     margin-bottom: 10%;
+ }
+
+
+  #offers{
+    display: grid;
+    align-items: center;
+    background-color: $nav-bar-color;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.offers-city{
+    background-color: white;
+    height: 70rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.offers-city img{
+    height: 50%;
+    width: 100%;
+}
+
+.offers-description{
+    margin: 15px;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.offers-name{
+    margin: 0;
+    color: $nav-bar-color;
+    font-weight:bolder;
+    font-size: 5rem;
+}
+
+.offers-price{
+    margin-top: 0;
+    margin-bottom: 7rem;
+    font-size: 5.3rem;
+}
+
+.offers-booking{
+    margin-top: 5rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color:$nav-bar-color;
+    font-size: 5.5rem;   
+}
+
+
+
 
 
 
