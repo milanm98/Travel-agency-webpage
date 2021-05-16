@@ -104,18 +104,18 @@ $login-color : rgb(68, 60, 60);
         border: 1px solid gray;
         border-radius: 50%;
         text-align: center;
+        padding: 5px;
         margin: 30px;
-        padding: 10px;
         margin-top: 40px;
     }
   
     .articles{
         display: flex;
         flex-direction: row;
-        height: 400px;
+        height: 250px;
         width: 100%;
         color: $nav-bar-color;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 0;
     }
 }

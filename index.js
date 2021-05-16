@@ -1,4 +1,4 @@
-fetch('imageSlider.json')
+fetch("public/imageSlider.json")
             .then(function (response) {
                 return response.json();
             })
