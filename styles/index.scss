@@ -323,6 +323,7 @@ $login-color : rgb(68, 60, 60);
 
 #regular-plus-premium{
     background-color:rgb(19, 19, 107);
+    width: 100%;
 }
 
 #regular-plus-premium-description{
@@ -365,6 +366,10 @@ $login-color : rgb(68, 60, 60);
     text-decoration-thickness: 20%;
     text-align: center;
     text-underline-position: under;
+}
+
+#card-navbar-tablet{
+    display: none;
 }
 $nav-bar-color : rgb(36, 48, 155);
 $login-color : rgb(68, 60, 60);
@@ -573,6 +578,7 @@ $login-color : rgb(68, 60, 60);
 
     #regular-plus-premium-description-footer{
         float: right;
+        margin: 0;
         color:rgb(0, 162, 255);
         font-size: 1.6rem;
         text-align: center;
@@ -584,6 +590,96 @@ $login-color : rgb(68, 60, 60);
 
     #regular-plus-premium-description-header{
         font-size: 3.5rem;
+    }
+
+    #card-plus{
+        display: none;
+    }
+
+    #card-premium{
+        display: none;
+    }
+
+    #card-navbar-tablet{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        height: 3.3rem;
+        
+    }
+
+    #card-navbar-tablet span{
+        color: gray;
+        width: 33.33%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        border: none;
+        height: 15rem;
+        margin-top: 0;
+
+    }
+
+    .card-image img{
+        height: 170px;
+        width: 170px;
+        margin-left: 40%;
+        margin-top: 15%;
+    }
+
+    .card-type{
+        display: none;
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .ticked{
+        font-size: 1.3rem;
+   
+    }
+
+    .dolar{
+        font-size: 1.3rem;
+    
+    }
+
+    .feature-dolar{
+        margin-left: 20%;
+    }
+
+    #regular-plus-premium{
+        padding-bottom: 7%;
+    }
+
+    #card-navbar-regular{
+        color : $nav-bar-color;
+        border-top: 3px solid blue;
+        
+    }
+
+    #card-navbar-plus{
+        background-color: lightgray;
+    }   
+
+    #card-navbar-premium{
+        background-color: lightgray;
     }
 
 }

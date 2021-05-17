@@ -357,6 +357,7 @@
 
 #regular-plus-premium {
   background-color: #13136b;
+  width: 100%;
 }
 
 #regular-plus-premium-description {
@@ -398,5 +399,9 @@
   text-decoration-thickness: 20%;
   text-align: center;
   text-underline-position: under;
+}
+
+#card-navbar-tablet {
+  display: none;
 }
 /*# sourceMappingURL=mobile.css.map */
