@@ -293,6 +293,72 @@
   font-size: 5.5rem;
 }
 
+#inspire-quote {
+  text-align: center;
+  color: #24309b;
+  font-size: 4rem;
+}
+
+#inspire-quote-paragraph {
+  font-weight: bolder;
+  -webkit-text-decoration: underline dashed #24309b 10px;
+          text-decoration: underline dashed #24309b 10px;
+  text-decoration-thickness: 20%;
+  text-align: center;
+  text-underline-position: under;
+}
+
+.card {
+  border-top: 30px solid blue;
+  width: 90%;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 80px;
+  height: 70rem;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image img {
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+}
+
+.card-type {
+  text-align: center;
+  color: #24309b;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.ticked {
+  color: #24309b;
+}
+
+.tick {
+  font-weight: bolder;
+  color: #24309b;
+}
+
+.dolar {
+  color: #c7c3b5;
+  opacity: 0.8;
+}
+
+.feature {
+  font-size: 2.5rem;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+
+#regular-plus-premium {
+  background-color: darkblue;
+}
+
 @media only screen and (min-device-width: 768px) {
   .links {
     display: -webkit-box;
