@@ -174,4 +174,48 @@ $login-color : rgb(68, 60, 60);
         font-size: 2.5rem;   
     }
 
+    #inspire-quote{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color : $nav-bar-color;
+        font-size: 2.5rem;
+    }
+    
+    #inspire-quote-paragraph{
+        font-weight: bolder;
+        text-decoration: underline dashed $nav-bar-color 10px;
+        text-decoration-thickness: 20%;
+        text-align: center;
+        text-underline-position: under;
+    }
+
+    #regular-plus-premium-description-content-mobile{
+        display : none;
+    }
+
+    #regular-plus-premium-description-content-tablet{
+        display: block;
+        color:white;
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+
+    #regular-plus-premium-description-footer{
+        float: right;
+        color:rgb(0, 162, 255);
+        font-size: 1.6rem;
+        text-align: center;
+        text-decoration: underline dashed rgb(0, 162, 255) 10px;
+        text-decoration-thickness: 20%;
+        text-align: center;
+        text-underline-position: under;
+    }
+
+    #regular-plus-premium-description-header{
+        font-size: 3.5rem;
+    }
+
 }

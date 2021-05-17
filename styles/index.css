@@ -356,7 +356,48 @@
 }
 
 #regular-plus-premium {
-  background-color: darkblue;
+  background-color: #13136b;
+}
+
+#regular-plus-premium-description {
+  padding: 5rem;
+}
+
+#regular-plus-premium-description-title {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#regular-plus-premium-description-header {
+  color: #00a2ff;
+  font-size: 7rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+#regular-plus-premium-description-content-mobile {
+  color: white;
+  font-size: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+#regular-plus-premium-description-content-tablet {
+  display: none;
+}
+
+#regular-plus-premium-description-footer {
+  color: #00a2ff;
+  font-size: 1rem;
+  text-align: center;
+  -webkit-text-decoration: underline dashed #00a2ff 10px;
+          text-decoration: underline dashed #00a2ff 10px;
+  text-decoration-thickness: 20%;
+  text-align: center;
+  text-underline-position: under;
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -555,6 +596,53 @@
     color: #24309b;
     font-size: 2.5rem;
   }
+  #inspire-quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #24309b;
+    font-size: 2.5rem;
+  }
+  #inspire-quote-paragraph {
+    font-weight: bolder;
+    -webkit-text-decoration: underline dashed #24309b 10px;
+            text-decoration: underline dashed #24309b 10px;
+    text-decoration-thickness: 20%;
+    text-align: center;
+    text-underline-position: under;
+  }
+  #regular-plus-premium-description-content-mobile {
+    display: none;
+  }
+  #regular-plus-premium-description-content-tablet {
+    display: block;
+    color: white;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  #regular-plus-premium-description-footer {
+    float: right;
+    color: #00a2ff;
+    font-size: 1.6rem;
+    text-align: center;
+    -webkit-text-decoration: underline dashed #00a2ff 10px;
+            text-decoration: underline dashed #00a2ff 10px;
+    text-decoration-thickness: 20%;
+    text-align: center;
+    text-underline-position: under;
+  }
+  #regular-plus-premium-description-header {
+    font-size: 3.5rem;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) {
@@ -614,6 +702,9 @@
   }
   .offers-booking {
     font-size: 2rem;
+  }
+  #regular-plus-premium-description-content-tablet {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=index.css.map */
