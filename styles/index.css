@@ -405,6 +405,14 @@
   display: none;
 }
 
+#premium {
+  display: none;
+}
+
+#plus {
+  display: none;
+}
+
 @media only screen and (min-device-width: 768px) {
   .links {
     display: -webkit-box;
@@ -716,7 +724,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 10%;
     width: 70%;
   }
