@@ -358,6 +358,7 @@
 #regular-plus-premium {
   background-color: #13136b;
   width: 100%;
+  padding-bottom: 7%;
 }
 
 #regular-plus-premium-description {
@@ -405,11 +406,117 @@
   display: none;
 }
 
-#premium {
+#subscribe {
+  background-color: #24309b;
+  height: 40rem;
+  text-align: center;
+}
+
+#subscribe-text {
+  padding-top: 5rem;
+  color: white;
+  font-size: 4.5rem;
+}
+
+#subscribe-field {
+  background-color: #24309b;
+  margin-top: 5rem;
+}
+
+#email {
+  background-color: #24309b;
+  width: 90%;
+  padding: 1.5rem;
+  font-size: 3rem;
+  border-bottom: 3px solid white;
+}
+
+#email::-webkit-input-placeholder {
+  color: #4848ff;
+}
+
+#email:-ms-input-placeholder {
+  color: #4848ff;
+}
+
+#email::-ms-input-placeholder {
+  color: #4848ff;
+}
+
+#email::placeholder {
+  color: #4848ff;
+}
+
+#subscribe-send a {
+  color: #24309b;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+#follow-us {
+  text-align: center;
+  font-weight: bolder;
+  color: #24309b;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+#payment {
+  text-align: center;
+}
+
+#payment img {
+  width: 70%;
+}
+
+#terms-map {
+  text-align: center;
+  color: grey;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#social-network-blue {
   display: none;
 }
 
-#plus {
-  display: none;
+#social-network-white {
+  width: 500px;
+  height: 200px;
+}
+
+#following {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#subscribe-send-button {
+  background-color: white;
+  width: 90%;
+  height: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3rem;
+  vertical-align: middle;
+  color: #24309b;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+footer {
+  border-bottom: 15px solid lightblue;
 }
 /*# sourceMappingURL=mobile.css.map */

@@ -324,12 +324,11 @@ $login-color : rgb(68, 60, 60);
 #regular-plus-premium{
     background-color:rgb(19, 19, 107);
     width: 100%;
+    padding-bottom: 7%;
 }
 
 #regular-plus-premium-description{
-
     padding: 5rem;
-
 }
 #regular-plus-premium-description-title{
     color: white;
@@ -372,10 +371,96 @@ $login-color : rgb(68, 60, 60);
     display: none;
 }
 
-#premium{
+#subscribe{
+    background-color: $nav-bar-color;
+    height: 40rem;
+    text-align: center;
+}
+
+#subscribe-text{
+    padding-top: 5rem;
+    color: white;
+    font-size: 4.5rem;
+}
+
+#subscribe-field{
+    background-color: $nav-bar-color;
+    margin-top: 5rem;
+}
+
+#email{
+    background-color: $nav-bar-color;
+    width: 90%;
+    padding: 1.5rem;
+    font-size: 3rem;
+    border-bottom: 3px solid white;
+}
+
+#email::placeholder{
+    color: rgb(72, 72, 255);
+}
+
+#subscribe-send a{
+    color: $nav-bar-color;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+
+#follow-us{
+    text-align: center;
+    font-weight: bolder;
+    color: $nav-bar-color;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+#payment{
+    text-align: center;
+}
+
+#payment img{
+    width: 70%;
+}
+
+#terms-map{
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#social-network-blue{
     display: none;
 }
 
-#plus{
-    display: none;
+#social-network-white{
+    width : 500px;
+    height : 200px;
+}
+
+#following{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe-send-button{
+    background-color: white;
+    width: 90%;
+    height: 6rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+    vertical-align: middle;
+    color : $nav-bar-color;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+footer{
+    border-bottom: 15px solid lightblue;
 }

@@ -59,5 +59,61 @@
   #regular-plus-premium-description-content-tablet {
     font-size: 1.5rem;
   }
+  #subscribe-and-terms {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  #subscribe {
+    background-color: #012f9e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #following {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #012f9e;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #social-network-white {
+    display: none;
+  }
+  #social-network-blue {
+    display: block;
+  }
+  #subscribe-text {
+    font-size: 0.3rem;
+  }
+  #payment {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    justify-items: left;
+    height: auto;
+  }
+  #terms-map {
+    font-size: 1rem;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    justify-items: right;
+    height: auto;
+  }
+  footer {
+    height: 300px;
+    border-bottom: 15px solid lightblue;
+  }
 }
 /*# sourceMappingURL=desktop.css.map */

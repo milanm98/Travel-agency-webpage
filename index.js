@@ -20,6 +20,7 @@ fetch("public/imageSlider.json")
              $("#autumn-desc").text(data[2].description);
              
             }
+var slideIndex = 0;
 ShowSlides(slideIndex);
 
 function plusSlides(n){

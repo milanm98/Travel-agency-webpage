@@ -335,5 +335,25 @@
   #card-navbar-premium {
     background-color: lightgray;
   }
+  #subscribe-text {
+    font-size: 3rem;
+  }
+  #email {
+    height: 6rem;
+    outline: none;
+  }
+  #subscribe-send-button {
+    margin-top: 3rem;
+    width: 50%;
+  }
+  #subscribe {
+    height: 30rem;
+  }
+  #subscribe-field {
+    margin-top: 3rem;
+  }
+  footer {
+    border-bottom: 15px solid lightblue;
+  }
 }
 /*# sourceMappingURL=tablet.css.map */
