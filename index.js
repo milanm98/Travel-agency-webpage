@@ -20,10 +20,7 @@ fetch("public/imageSlider.json")
              $("#autumn-desc").text(data[2].description);
              
             }
-
-var slideIndex = 1;
 ShowSlides(slideIndex);
-ShowTabs("regular");
 
 function plusSlides(n){
     ShowSlides(slideIndex += n);
@@ -50,7 +47,6 @@ function ShowSlides(n){
     slides[slideIndex-1].style.display = "block";
     descriptions[slideIndex-1].style.display = "block";
 }
-
 function ShowTabs(TypeOfTab){
     var regularSpan = document.getElementById("card-navbar-regular");
     var plusSpan = document.getElementById("card-navbar-plus");
