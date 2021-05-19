@@ -407,7 +407,7 @@
 }
 
 #subscribe {
-  background-color: #24309b;
+  background-color: #012f9e;
   height: 40rem;
   text-align: center;
 }
@@ -419,15 +419,17 @@
 }
 
 #subscribe-field {
-  background-color: #24309b;
+  background-color: #012f9e;
   margin-top: 5rem;
 }
 
 #email {
-  background-color: #24309b;
+  background-color: #012f9e;
   width: 90%;
   padding: 1.5rem;
   font-size: 3rem;
+  outline: none;
+  border: none;
   border-bottom: 3px solid white;
 }
 
@@ -511,7 +513,7 @@
   margin: 0 auto;
   font-size: 3rem;
   vertical-align: middle;
-  color: #24309b;
+  color: #012f9e;
   margin-top: 2rem;
   font-weight: bolder;
 }

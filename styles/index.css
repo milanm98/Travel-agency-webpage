@@ -407,7 +407,7 @@
 }
 
 #subscribe {
-  background-color: #24309b;
+  background-color: #012f9e;
   height: 40rem;
   text-align: center;
 }
@@ -419,15 +419,17 @@
 }
 
 #subscribe-field {
-  background-color: #24309b;
+  background-color: #012f9e;
   margin-top: 5rem;
 }
 
 #email {
-  background-color: #24309b;
+  background-color: #012f9e;
   width: 90%;
   padding: 1.5rem;
   font-size: 3rem;
+  outline: none;
+  border: none;
   border-bottom: 3px solid white;
 }
 
@@ -511,7 +513,7 @@
   margin: 0 auto;
   font-size: 3rem;
   vertical-align: middle;
-  color: #24309b;
+  color: #012f9e;
   margin-top: 2rem;
   font-weight: bolder;
 }
@@ -941,6 +943,7 @@ footer {
     font-size: 1.5rem;
   }
   #subscribe-and-terms {
+    height: auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -957,8 +960,20 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1rem;
   }
   #following {
+    font-size: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -967,34 +982,124 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    height: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: 0;
+  }
+  #follow-us {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
   }
   #social-network-white {
     display: none;
   }
   #social-network-blue {
     display: block;
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
   }
   #subscribe-text {
-    font-size: 0.3rem;
+    font-size: 1.3rem;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 50px;
+  }
+  #subscribe-field {
+    font-size: 1rem;
+    margin-top: 0;
+    background-color: #012f9e;
+  }
+  #email {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 50px;
+    background-color: #012f9e;
+  }
+  #email::-webkit-input-placeholder {
+    color: #785fbd;
+  }
+  #email:-ms-input-placeholder {
+    color: #785fbd;
+  }
+  #email::-ms-input-placeholder {
+    color: #785fbd;
+  }
+  #email::placeholder {
+    color: #785fbd;
+  }
+  #subscribe-send {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  #subscribe-send-button {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 8rem;
+    margin: 0;
+    color: white;
+    background-color: #012f9e;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    text-align: right;
+  }
+  .method-of-payment {
+    width: 30%;
+    height: 80%;
+    margin-left: 50px;
   }
   #payment {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
-    justify-items: left;
-    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1rem;
   }
   #terms-map {
-    font-size: 1rem;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    justify-items: right;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    margin-right: 50px;
+  }
+  #terms-map div {
+    margin-right: 50px;
   }
   footer {
-    height: 300px;
     border-bottom: 15px solid lightblue;
+    height: auto;
   }
 }
 /*# sourceMappingURL=index.css.map */
