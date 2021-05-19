@@ -517,7 +517,7 @@
 }
 
 footer {
-  border-bottom: 5px solid lightblue;
+  border-bottom: 15px solid lightblue;
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -875,7 +875,7 @@ footer {
     margin-top: 3rem;
   }
   footer {
-    border-bottom: 5px solid lightblue;
+    border-bottom: 15px solid lightblue;
   }
 }
 
@@ -994,7 +994,7 @@ footer {
   }
   footer {
     height: 300px;
-    border-bottom: 5px solid lightblue;
+    border-bottom: 15px solid lightblue;
   }
 }
 /*# sourceMappingURL=index.css.map */
